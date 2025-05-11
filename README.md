@@ -1,16 +1,43 @@
-# codear
+# Codear
 
-A new Flutter project.
+**Version:** 1.1.0-alpha.1  
+**Status:** Alpha release
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ダウンロード
 
-A few resources to get you started if this is your first Flutter project:
+最新の APK は [Releases ページ](https://github.com/ozwshn/codear/releases) からどうぞ。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 機能一覧
+
+- コード再生デモ  
+- コード当てクイズ（トライアド・セブンス付き）  
+- サウンドフォント切替  
+- 難易度 & プリセット管理  
+- カスタムプリセットの作成・編集・並び替え・削除  
+
+---
+
+## インストール手順
+
+1. Android 端末で［設定］→［セキュリティ］→「提供元不明のアプリ」を許可  
+2. ダウンロードした `app-release.apk` をタップしてインストール  
+
+---
+
+## ビルド手順
+
+```bash
+# リポジトリをクローン
+git clone https://github.com/あなたのユーザー名/リポジトリ名.git
+cd リポジトリ名
+
+# 依存を取得
+flutter pub get
+
+# Release APK ビルド
+flutter build apk --release
+# artifact は build/app/outputs/flutter-apk/app-release.apk に生成されます
