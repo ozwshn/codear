@@ -1,0 +1,13 @@
+[
+  { "root": "C",  "triad": "maj"      },
+  { "root": "A",  "triad": "m"        },
+  { "root": "G",  "triad": "maj"      },
+
+  { "root": "C",  "triad": "maj", "seventh": "dom7" },
+  { "root": "A",  "triad": "m",   "seventh": "m7"   },
+  { "root": "D",  "triad": "m",   "seventh": "m7b5" },
+
+  { "root": "E",  "triad": "aug", "inversion": 1    },
+  { "root": "G",  "triad": "sus4","seventh": "dom7" },
+  { "root": "C",  "triad": "maj", "seventh": "maj7", "inversion": 2 }
+]
